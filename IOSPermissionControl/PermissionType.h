@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  PermissionType.h
 //  IOSPermissionControl
 //
 //  Created by Mittal J. Banker on 26/05/16.
 //  Copyright © 2016 digicorp. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface PermissionType : NSObject
 
 @end
-
