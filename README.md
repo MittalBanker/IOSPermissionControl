@@ -68,3 +68,9 @@ This statement wili give you the status of permission
     }
     
         
+        
+### Display three color buttons to show status of permission
+
+display orange color button to show permision which are denied.</br>
+display green color button to show permision which are given.</br>
+display blue color button to show which status is still unknown.
