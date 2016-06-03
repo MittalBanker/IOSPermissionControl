@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface PermissionCell : UITableViewCell
-@property (strong, nonatomic) IBOutlet NSLayoutConstraint *constraintForLblName;
 @property (weak, nonatomic) IBOutlet UIImageView *imgProfilePic;
 
 @end

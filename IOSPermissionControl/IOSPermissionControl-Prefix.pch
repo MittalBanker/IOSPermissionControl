@@ -11,8 +11,13 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-
+#import <BlocksKit/BlocksKit.h>
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <Photos/Photos.h>
+#import <AddressBook/AddressBook.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#import <EventKit/EventKit.h>
+#import "Constants.h"
 #endif /* PrefixHeader_pch */
-#define kLocation @"Location"
-#define kPhotos @"Photos"
-#define kContacts @"Contacts"

@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "CIPermissionControl.h"
 @class PermissionType;
-@interface PermissionViewController : UIViewController<CIPermissionControlDelegate,CIPermissionControlDataSource>
+@interface PermissionViewController : UIViewController<CIPermissionControlDelegate,CIPermissionControlDataSource>{
+    CIPermissionControl *picker;
+}
 
 @property(strong)NSMutableArray *arrPermissionData;
+
 @end
 

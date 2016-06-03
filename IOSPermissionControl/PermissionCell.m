@@ -8,11 +8,10 @@
 
 #import "PermissionCell.h"
 
-@implementation voicerCell
+@implementation PermissionCell
 
 - (void)awakeFromNib {
-    [self.imgProfilePic.layer setBorderColor:GRAY_COLOR.CGColor];
-    [self.imgProfilePic.layer setBorderWidth:0.5];
+   
     // Initialization code
 }
 

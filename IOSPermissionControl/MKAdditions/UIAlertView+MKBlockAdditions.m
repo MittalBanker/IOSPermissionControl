@@ -8,6 +8,7 @@
 
 #import "UIAlertView+MKBlockAdditions.h"
 #import <objc/runtime.h>
+#import <UIKit/UIKit.h>
 
 static char DISMISS_IDENTIFER;
 static char CANCEL_IDENTIFER;
